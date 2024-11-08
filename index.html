@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Bundle Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Bundle & Save</div>
+
+        <!-- Option 1 -->
+        <div class="option">
+            <div class="option-header">
+                1 Pair <span class="price">DKK 195.00</span>
+                <span class="discount">50% OFF</span>
+            </div>
+        </div>
+
+        <!-- Option 2 -->
+        <div class="option most-popular">
+            <div class="option-header">
+                2 Pair <span class="price">DKK 315.00</span>
+                <span class="discount">40% OFF</span>
+            </div>
+            <div class="badge">Most Popular</div>
+            <select name="size1">
+                <option value="">Size</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+            <select name="color1">
+                <option value="">Color</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+        </div>
+
+        <!-- Option 3 -->
+        <div class="option">
+            <div class="option-header">
+                3 Pair <span class="price">DKK 528.00</span>
+                <span class="discount">60% OFF</span>
+            </div>
+        </div>
+
+        <!-- Free Shipping Text -->
+        <div class="footer">Free 2 Day Shipping</div>
+
+        <!-- Total Price -->
+        <div class="total">Total: DKK 360.00</div>
+
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart" onclick="addToCart()">+ Add to Cart</button>
+
+        <!-- Footer Branding -->
+        <div class="footer">Powered by Jumper</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
